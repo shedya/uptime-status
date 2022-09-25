@@ -23,8 +23,8 @@ function App() {
           ))}
         </div>
         <div id='footer'>
-          <p>检测频率 5 分钟</p>
-          <p>&copy; 2022 bantk.com 保留所有权利</p>
+          <p>检测频率为 5 分钟<br>如需在此监测您的网站，请发送域名至wo@diaonm.com</p>
+          <p>&copy; 2022 bantk.com 保留所有权利 <a href='https://beian.miit.gov.cn/#/Integrated/index' target="_blank" rel="nofollow">桂ICP备2022008653号-1</a></p>
         </div>
       </div>
     </>
