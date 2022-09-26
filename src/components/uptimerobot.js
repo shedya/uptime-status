@@ -47,7 +47,7 @@ function UptimeRobot({ apikey }) {
         })}
       </div>
       <div className='summary'>
-        <span>今天</span>
+        <span>当前</span>
         <span>
           {site.total.times
             ? `最近 ${CountDays} 天故障 ${site.total.times} 次，累计 ${formatDuration(site.total.duration)}，平均可用率 ${site.average}%`
