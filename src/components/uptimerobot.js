@@ -7,9 +7,9 @@ import Link from './link';
 function UptimeRobot({ apikey }) {
 
   const status = {
-    ok: '正常',
-    down: '无法访问',
-    unknow: '未知'
+    ok: '目前状态正常',
+    down: '目前无法访问',
+    unknow: '监测系统异常'
   };
 
   const { CountDays, ShowLink } = window.Config;
